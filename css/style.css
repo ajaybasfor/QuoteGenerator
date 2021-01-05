@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing : border-box;
+}
+body {
+	background-image: url("../images/back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+header b{
+	border-bottom: 0.3rem dashed black;
+}
+.container {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left: 30px;
+	margin-top: 70px;
+	padding: 0;
+}
+.container .main_div {
+	width: 100%;
+	height: auto;
+	padding: 15px 15px;	
+	font-size: 30px;
+	font-family: "Comic Sans MS";
+}
+.container button {
+	margin-top: 10px;
+}
+.main_div i {
+	font-size: 40px;
+}
+.main_div p {
+	color: green;
+}
+.main_div p::before {
+	content: "–";
+}
